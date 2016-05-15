@@ -3,9 +3,6 @@
 #include <QGraphicsTextItem>
 #include "Start.h"
 #include "Game.h"
-//#include "Score.h"
-#include <QGraphicsTextItem>
-#include <QFont>
 
 
 extern Start *start;
@@ -21,15 +18,6 @@ Final::Final(QWidget *parent2)
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setFixedSize(550,401);
-
-
-//    final_scene->addItem(score);
-
-//    setPlainText(QString("Score: ") );
-//    setDefaultTextColor(Qt::blue);
-//    setFont(QFont("helvetica",32,QFont::Bold));
-
-
 
 
     btn3 = new QPushButton("Restart");
