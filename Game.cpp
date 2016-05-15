@@ -1,10 +1,6 @@
 #include "Game.h"
 #include <QImage>
 #include <QGraphicsTextItem>
-//#include <QTimer>
-//#include <QFont>
-#include <QMediaPlayer>
-
 
 
 
@@ -43,12 +39,6 @@ Game::Game(QWidget *parent)
     miss = new Miss();
     miss->setPos(miss->x()+250,miss->y());
     scene->addItem(miss);
-
-
-    //play background music
-//    QMediaPlayer *music = new QMediaPlayer();
-//    music->setMedia(QUrl("qrc:/sounds/bgsound.mp3"));
-//    music->play();
 
 
     show();
