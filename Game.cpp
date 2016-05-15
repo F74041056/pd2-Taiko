@@ -39,7 +39,7 @@ Game::Game(QWidget *parent)
     miss = new Miss();
     miss->setPos(miss->x()+250,miss->y());
     scene->addItem(miss);
-
+    
 
     show();
 }
